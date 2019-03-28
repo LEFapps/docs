@@ -1,2 +1,5 @@
-# docs
-:book: Documentation and how to's
+# Docs for LEFapps development team
+
+## Contents
+
+1. [Packages](./packages)
