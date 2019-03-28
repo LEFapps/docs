@@ -14,7 +14,7 @@ _Please run `npm run build` before pushing to GitHub._
 ### Overview
 
 | npm                                                              | meteor                                                            | meteor wraps npm? | should switch to npm |
-| ---------------------------------------------------------------- | ----------------------------------------------------------------- | ----------------- | -------------------- |
+|------------------------------------------------------------------|-------------------------------------------------------------------|-------------------|----------------------|
 | [@lefapps/translations](https://github.com/LEFapps/translations) | [lef:translations](https://github.com/LEFapps/lef-translations)   | ✓                 |                      |
 | [@lefapps/forms](https://github.com/LEFapps/forms)               | [lef:forms2](https://github.com/LEFapps/lef-forms2)               | ✓                 |                      |
 |                                                                  | [lef:adminlist](https://github.com/LEFapps/lef-adminlist)         |                   | ?                    |
@@ -33,15 +33,15 @@ Follow these steps to write new packages:
 1.  Create a new npm package
     ```sh
     git clone git@github.com:LEFapps/npm-package-boilerplate.git
-    mv npm-package-boilerplate yournewfolder
-    cd yournewfolder
+    mv npm-package-boilerplate yournewpackage
+    cd yournewpackage
     rm -rf .git
     git init
     ```
 
 2.  Push to new GitHub repository at [LEFapps](https://github.com/LEFapps/)
 
-3.  Publish to npm `npm publish --access public`
+3.  Publish to npm `npm publish --access public` :rocket: 
 
 4.  OPTIONALLY. Write a Meteor wrapper package.
 
