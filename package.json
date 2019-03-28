@@ -1,0 +1,24 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "Docs for LEFapps development team",
+  "main": "index.js",
+  "scripts": {
+    "build": "remark . --use toc -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LEFapps/docs.git"
+  },
+  "author": "LEF",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LEFapps/docs/issues"
+  },
+  "homepage": "https://github.com/LEFapps/docs#readme",
+  "devDependencies": {
+    "remark-cli": "^6.0.1",
+    "remark-preset-lint-markdown-style-guide": "^2.1.2",
+    "remark-toc": "^5.1.1"
+  }
+}
